@@ -1,7 +1,7 @@
 const express = require("express");
 const path = require("path");
 //make these routes api front end crub on notes
-const indexRoutes = require("./routes/indexRoutes.js");
+const indexRoutes = require("./develop/routes/indexRoutes");
 
 const PORT = process.env.PORT || 3001;
 
@@ -12,16 +12,16 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use("/api", indexRoutes);
 
-app.use(express.static("public"));
+app.use(express.static("./develop/public"));
 
 // GET Route for homepage
 app.get("/", (req, res) =>
-  res.sendFile(path.join(__dirname, "develop/public/index.html"))
+  res.sendFile(path.join(__dirname, "./develop/public/index.html"))
 );
 
 // GET Route for feedback page
 app.get("/notes", (req, res) =>
-  res.sendFile(path.join(__dirname, "develop/public/notes.html"))
+  res.sendFile(path.join(__dirname, "./develop/public/notes.html"))
 );
 
 app.listen(PORT, () =>

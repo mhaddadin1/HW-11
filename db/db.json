@@ -4,33 +4,8 @@
         "text": "Test text"
     },
     {
-        "title": "note",
-        "text": "taker",
-        "feedback_id": "31331c68-73a1-47fc-b0d7-b244eac94412"
-    },
-    {
-        "title": "note1",
-        "text": "taker1",
-        "feedback_id": "911a1fc5-318a-4334-b059-39e074152245"
-    },
-    {
-        "title": "do laundry",
-        "text": "get it done!",
-        "feedback_id": "cf5412cc-baee-47e4-94c4-cde2c91501d6"
-    },
-    {
-        "title": "do laundry today",
-        "text": "get it done!",
-        "feedback_id": "9d47671b-6c48-4ddc-a8bb-a3fc512bb09f"
-    },
-    {
-        "title": "do laundry today",
-        "text": "get it done!",
-        "feedback_id": "bcdbdf22-2b48-4ec5-b59f-27931e020c07"
-    },
-    {
-        "title": "adf",
-        "text": "adf\n",
-        "feedback_id": "fcb5232c-298a-4285-8d4f-03cb637c2768"
+        "title": "Finish Homework",
+        "text": "finish homework 11\n",
+        "feedback_id": "226d9201-bb50-4a18-8609-8c6cea1dad12"
     }
 ]

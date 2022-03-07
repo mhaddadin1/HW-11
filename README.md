@@ -11,7 +11,7 @@ This is a note taking application. When a user opens the application. A user is 
 ## Links to Application
 
 - Here is the Github repo: https://github.com/mhaddadin1/HW-11
-- Here is the deployed app on Heroku:
+- Here is the deployed app on Heroku: https://hw11-note-taker-mousa.herokuapp.com/
 
 ## Questions
 
